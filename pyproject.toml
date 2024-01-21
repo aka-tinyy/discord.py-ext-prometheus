@@ -8,7 +8,7 @@ version = "0.1.5"
 authors = [
   { name="Apollo-Roboto", email="Apollo_Roboto@outlook.com" },
 ]
-description  = "An extension for the discord.py library that enables Prometheus metrics"
+description  = "An extension for the pycord library that enables Prometheus metrics"
 readme = "README.md"
 license = "MIT"
 keywords = ["Prometheus", "Discord", "Metrics", "Bot", "Analytics", "Extension"]
@@ -16,7 +16,7 @@ packages = [{ include = "discord" }]
 requires-python = ">=3.8"
 dependencies = [
 	"prometheus-client>=0.16.0,<1",
-	"discord.py>=2.2.3,<3",
+	"pycord",
 ]
 classifiers = [
 	"Programming Language :: Python :: 3",
