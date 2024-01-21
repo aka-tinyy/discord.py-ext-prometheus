@@ -10,7 +10,7 @@ This is a library that makes it easy to add prometheus metrics to your Python Di
 # Installation
 
 ```bash
-pip install discord-ext-prometheus
+pip install pycord-ext-prometheus
 ```
 
 # Exposed Metrics
